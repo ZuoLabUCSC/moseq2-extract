@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+h5py = '*'
+tqdm = "*"
+scipy = "*"
+numpy = "==1.18.3"
+click = "*"
+awscli = "*"
+joblib = "*"
+cytoolz = "*"
+matplotlib = '*'
+statsmodels = "*"
+ruamel_yaml = '*'
+scikit-image = "*"
+scikit-learn = "==0.20.3"
+opencv-python = '*'
+moseq2-extract = {editable = true, path = "."}
